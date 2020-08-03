@@ -63,36 +63,62 @@ For data packages submitted through our [Web Form](https://app.gitbook.com/@ess-
 |Description| List the organizations that funded the work. When using the web form, you can choose from the drop down list as you begin to enter the funding organization. |
 | Format | Controlled List or Free Text |
 
-| **Keywords** | **`required`**|
+| **DOE Contract Number** | **`optional`**|
 | :--- | :--- |
-|JSON-LD Field| `keywords` |
+|JSON-LD Field| `award` |
+|Description|List the numbers of any DOE contract under which the data in the package was funded. Enter "NONE" if no DOE funding applies. If the data package is a result of a joint effort between two or more DOE Site/Facility Management Contractors, etc., additional DOE contract numbers may be entered.  |
+|Format|Controlled List or Free Text|
 
-| **Keywords** | **`required`**|
+| **Contact** | **`required`**|
 | :--- | :--- |
-|JSON-LD Field| `keywords` |
+|JSON-LD Field| `editor` |
+|Description|Person who should be listed as the contact for the data package for the purposes of the DOI or for users seeking further information for the data. Only one contact is allowed.|
+|Format|Free Text|
 
-| **Keywords** | **`required`**|
+| **Creators** | **`required`**|
 | :--- | :--- |
-|JSON-LD Field| `keywords` |
+|JSON-LD Field| `creator` |
+|Description|The main researchers involved in producing the data. These include authors, owners, originators and principal investigators who should be listed in the citation. One or more creators is required. If none are entered, you will be set as the creator of this document. List creators in the order they need to appear in the citation.|
+|Format|Free Text|
 
-| **Keywords** | **`required`**|
+| **Contributors** | **`optional`**|
 | :--- | :--- |
-|JSON-LD Field| `keywords` |
+|JSON-LD Field| `contributor` |
+|Description|Additional contributors involved in producing the data. These could include people who assisted in creating the data package but wouldn't be considered authors for publication. |
+|Format|Free Text|
 
-| **Keywords** | **`required`**|
+| **Start Date** | **`optional`**|
 | :--- | :--- |
-|JSON-LD Field| `keywords` |
+|JSON-LD Field| `temporalCoverage` |
+|Description|Earliest date in data package.|
+|Format|YYYY-MM-DD|
 
+| **End Date** | **`required`**|
+| :--- | :--- |
+|JSON-LD Field| `temporalCoverage` |
+|Description|Last date in data package. Leave blank if your dataset is open ended. | YYYY-MM-DD | No |
+|Format|YYYY-MM-DD|
 
+| **Geographic Description** | **`optional`**|
+| :--- | :--- |
+|JSON-LD Field| `spatialCoverage/description` |
+|Description|Known identifiers (e.g. Ameriflux site name), name, and short descriptions of the locations(s) where data was collected.|
+|Format|Free Text|
 
+| **Bounding Box Coordinates** | **`optional`**|
+| :--- | :--- |
+|JSON-LD Field| `spatialCoverage` |
+|Description|Latitude and Longitude of the location\(s\) this data represents in WGS84 decimal format. Enter only one coordinate pair for a single point and bounding box coordinates for non-point locations. If the data is better represented by a shape, you may also include a KML file in the file uploads. |
+|Format|Latitude and Longitude  in WGS 84 decimal degrees|
 
-| DOE Contract Number | `award` | List the numbers of any DOE contract under which the data in the package was funded. Enter "NONE" if no DOE funding applies. If the data package is a result of a joint effort between two or more DOE Site/Facility Management Contractors, etc., additional DOE contract numbers may be entered.  | Controlled List or Free Text | No |
-| Contact | `editor` | Person who should be listed as the contact for the data package for the purposes of the DOI or for users seeking further information for the data. Only one contact is allowed. | Free Text | Yes |
-| Creators | `creator` | The main researchers involved in producing the data. These include authors, owners, originators and principal investigators who should be listed in the citation. One or more creators is required. If none are entered, you will be set as the creator of this document. List creators in the order they need to appear in the citation. | Free Text | Yes |
-| Contributors | `contributor` | Additional contributors involved in producing the data. These could include people who assisted in creating the data package but wouldn't be considered authors for publication. | Free Text | No |
-| Start Date | `temporalCoverage` | Earliest date in data package. | YYYY-MM-DD | No |
-| End Date | `temporalCoverage` | Last date in data package. Leave blank if your dataset is open ended. | YYYY-MM-DD | No |
-| Geographic Description | `spatialCoverage/` `description` | Known identifiers \(e.g. Ameriflux site name\), name, and short descriptions of the locations\(s\) where data was collected. | Free Text  | No |
-| Bounding Box Coordinates | `spatialCoverage` | Latitude and Longitude of the location\(s\) this data represents in WGS84 decimal format. Enter only one coordinate pair for a single point and bounding box coordinates for non-point locations. If the data is better represented by a shape, you may also include a KML file in the file uploads. | Latitude and Longitude  in WGS 84 decimal degrees | No |
-| Related References | `citation` | Associated publications or data packages where users can learn more about the dataset, processing method, or how the data were used. Include the full citation with DOI. | Free Text | No |
-| Methods | `measurementTechnique` | Information about the methods employed in collecting or generating a data set or other resource. These include descriptions of sampling or experimental procedures, data QA/QC, processing and synthesis. | Free Text | No |
+| **Related References** | **`optional`**|
+| :--- | :--- |
+|JSON-LD Field| `citation` |
+|Description|Associated publications or data packages where users can learn more about the dataset, processing method, or how the data were used. Include the full citation with DOI.|
+|Format|Free Text|
+
+| **Methods** | **`optional`**|
+| :--- | :--- |
+|JSON-LD Field| `measurementTechnique` |
+|Description|Information about the methods employed in collecting or generating a data set or other resource. These include descriptions of sampling or experimental procedures, data QA/QC, processing and synthesis.|
+|Format|Free Text|

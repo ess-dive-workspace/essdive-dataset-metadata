@@ -1,6 +1,8 @@
 # Package Level Metadata Standard
 This is the readme file associated with ESS-DIVE's package level metadata standard.
 
+**To request changes to this package-level metadata standard, please use the issue tracker associated with this repo.**
+
 ## Abstract for your standard
 Here is where we can write a short abstract describing the development of the standard.
 
@@ -15,5 +17,9 @@ Once you (the data contributor) have reviewed all relevent terms(link to the sta
 ## Citation
 Last name First name, Last name, first name. year. full name of standard, version number. DOI: 
 
+## General background
+Here, we can include background information about the development of the package level metadata standard.
+
 ____
-Standard README file adapted from [darwin core standard guidelines](https://github.com/tdwg/infrastructure/blob/master/migration/guidelines-for-standard-repositories.md)
+
+This README file is adapted from [Darwin Core](https://github.com/tdwg/infrastructure/blob/master/migration/guidelines-for-standard-repositories.md) and [MIxS](https://github.com/GenomicsStandardsConsortium/mixs)

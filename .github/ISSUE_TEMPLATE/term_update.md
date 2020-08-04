@@ -1,8 +1,3 @@
----
-title: "Term Update"
-output: html_document
----
-
 **Current term details**
 Please provide below, the current text for the term that you would like to update.
 ```

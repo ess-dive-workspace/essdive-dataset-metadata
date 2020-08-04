@@ -1,1 +1,3 @@
-## This is the folder where you can add any scripts related to processing your standard
+## Software example
+
+This is the location where you can upload any software associated with your standard.

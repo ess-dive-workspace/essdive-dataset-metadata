@@ -1,9 +1,9 @@
 # Table of contents
 
 * [Package Level Metadata Standard](README.md)
-* [Submitting and Issue](.github/README.md)
-  * [ISSUE\_TEMPLATE](.github/issue_template/README.md)
-    * [term\_update](.github/issue_template/term_update.md)
+* [Submitting an Issue](submitting-and-issue/README.md)
+  * [ISSUE\_TEMPLATE](submitting-and-issue/issue_template/README.md)
+    * [term\_update](submitting-and-issue/issue_template/term_update.md)
 * [crosswalks\_and\_vocabularies](crosswalks_and_vocabularies/README.md)
   * [PLMD\_crosswalk](crosswalks_and_vocabularies/plmd_crosswalk.md)
 * [guide](guide/README.md)

@@ -22,4 +22,3 @@ Once you \(the data contributor\) have reviewed all relevent terms\(link to the 
 Last name First name, Last name, first name. year. full name of standard, version number. DOI:
 
 Standard README file adapted from [darwin core standard guidelines](https://github.com/tdwg/infrastructure/blob/master/migration/guidelines-for-standard-repositories.md)
-

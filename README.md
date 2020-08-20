@@ -1,7 +1,6 @@
-# Package Level Metadata Standard
+# Package-level metadata standard
 
-This is the readme file associated with ESS-DIVE's package level metadata standard.
-To see this github repository (including all subfolders and templates) rendered as a gitbook, please follow this [link](https://app.gitbook.com/@ess-dive/s/package-level-metadata-standard/).
+This is the readme file associated with ESS-DIVE's package level metadata standard. To see this github repository \(including all subfolders and templates\) rendered as a gitbook, please follow this [link](https://app.gitbook.com/@ess-dive/s/package-level-metadata-standard/).
 
 ## Abstract
 
@@ -22,3 +21,4 @@ Once you \(the data contributor\) have reviewed all relevent terms\(link to the 
 Last name First name, Last name, first name. year. full name of standard, version number. DOI:
 
 Standard README file adapted from [darwin core standard guidelines](https://github.com/tdwg/infrastructure/blob/master/migration/guidelines-for-standard-repositories.md)
+

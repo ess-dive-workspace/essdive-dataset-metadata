@@ -1,5 +1,6 @@
 # Package-level metadata standard
 
+Update for gitbook
 This is the readme file associated with ESS-DIVE's package level metadata standard. To see this github repository \(including all subfolders and templates\) rendered as a gitbook, please follow this [link](https://app.gitbook.com/@ess-dive/s/package-level-metadata-standard/).
 
 ## Abstract

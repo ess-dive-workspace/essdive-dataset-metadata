@@ -6,6 +6,7 @@
 * [Scripts and software](scripts-and-software/README.md)
   * [Software example](scripts-and-software/software-example.md)
 * [Meta-data template](templates/plmd-template.md)
+  * [CSV test](templates/example_data_for_parser.csv)
 * [How to submit an issue](submit-an-issue/README.md)
   * [Template for updating term](submit-an-issue/term-update.md)
 

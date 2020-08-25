@@ -3,13 +3,15 @@
 This is the readme file associated with ESS-DIVE's package level metadata standard. To see this github repository \(including all subfolders and templates\) rendered as a gitbook, please follow this [link](https://app.gitbook.com/@ess-dive/s/package-level-metadata-standard/).
 
 ## Getting started
-[Read all standard documentation online](https://ess-dive.gitbook.io/package-level-metadata-standard/-MFBgaEBNx1ceW98_yOA/)
+[Read all standard documentation online](https://ess-dive.gitbook.io/package-level-metadata-standard/-MFBgaEBNx1ceW98_yOA/)  
+
 [Quick guide for the Package-level meta-data standard](specifications/plmd-guide.md)
 
 Documents:
 - [Crosswalk](specifications/plmd-crosswalk.md)
-- [Software](/scripts-and-software/software-example.md)
 - [Downloadable template for PLMD standard](/templates/plmd-template.md)]
+
+- [How to contribute](#how-to-contribute)
 
 ## About the Package-level metadata standard
 

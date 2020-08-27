@@ -9,7 +9,7 @@ This is the readme file associated with ESS-DIVE's package level metadata standa
 
 Documents:
 - [Crosswalk](specifications/plmd-crosswalk.md)
-- [Downloadable template for PLMD standard](/templates/plmd-template.md)]
+- [Downloadable template for PLMD standard](/templates/plmd-template.md)
 
 - [How to contribute](#how-to-contribute)
 

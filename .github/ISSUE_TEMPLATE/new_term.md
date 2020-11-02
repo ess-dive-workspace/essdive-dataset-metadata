@@ -7,11 +7,9 @@ assignees: ''
 
 ---
 
-**Submitter**
-Provide your name
+**Submitter**: Provide your name
 
-**Justification**
-Why is this term necessary?
+**Justification**: Why is this term necessary?
 
 ## Proposed definition of new term
 * Term name (in lowerCamelCase):

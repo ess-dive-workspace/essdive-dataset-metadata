@@ -10,15 +10,15 @@ When ESS-DIVE's user community [submits data to the repository](https://data.ess
 - [Crosswalk with existing metadata schema](specifications/plmd_crosswalk.md)
 
 Templates:
-- [Downloadable template for PLMD standard](/templates/plmd-template.md)
-
-
+- [Downloadable template for PLMD standard](dataset_metadata_template.docx)
 
 ## How to contribute  
+We encourage suggestions for improving the ESS-DIVE dataset metadata template and documentations. Please submit a GitHub issue using one of our [issue templates](https://github.com/ess-dive-community/essdive-dataset-metadata/issues/new/choose) to suggest changes.  
 
-## Copyright information  
+Also, You can always email the ESS-DIVE support team at ess-dive-support (at) lbl.gov
 
 ## Licensing information  
+This repository content is license for use under the [CC BY 4.0 license](https://creativecommons.org/licenses/by/4.0/)
 
 ## Funding and acknowledgements  
 Funding for the development of ESS-DIVE's dataset metadata reporting format was provided by the U.S. Department of Energy, Office of Science, Office of Biological and Environmental Research, Climate and Environmental Science Division, Data Management program under contract number DE-AC02-05CH11231.

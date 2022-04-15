@@ -1,7 +1,7 @@
 # Table of contents
 
-* [Package-level metadata standard](README.md)
-* [Crosswalk](specifications/plmd-crosswalk.md)
-* [Term Guide](specifications/plmd-guide.md)
-* [Meta-data template](templates/plmd-template.md)
-* [Template as CSV](templates/example_data_for_parser_v2.csv)
+* [ESS-DIVE dataset metadata](README.md)
+* [Crosswalk](specifications/plmd_crosswalk.md)
+* [Term Guide](specifications/plmd_guide.md)
+* [Download metadata template](https://github.com/ess-dive-community/essdive-dataset-metadata/blob/master/dataset_metadata_template.docx)
+* [PDF of metadata template](https://github.com/ess-dive-community/essdive-dataset-metadata/blob/master/dataset_metadata_template.pdf)

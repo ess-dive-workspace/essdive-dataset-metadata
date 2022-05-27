@@ -6,8 +6,8 @@ The ESS-DIVE dataset metadata reporting format ensures that all datasets submitt
 When ESS-DIVE's user community [submits data to the repository](https://data.ess-dive.lbl.gov/submit), they are asked to fill out metadata for their entire dataset. Users can enter this metadata through our point-and-click [web form](https://docs.ess-dive.lbl.gov/contributing-data/data-submission-guidelines/complete-guide) or [programatically via our API](https://docs.ess-dive.lbl.gov/contributing-data/data-submission-guidelines/package-service-tutorial).  Because the previously mentioned links include step-by-step guidance on how to submit data, in this GitHub repository, we share documents that explain our metadata schema and development process.
 
 ## Quickstart guide
-- [Dataset metadata terminology and definitions](specifications/plmd_guide.md)
-- [Crosswalk with existing metadata schema](specifications/plmd_crosswalk.md)
+- [Dataset metadata terminology and definitions](specifications/dataset_metadata_guide.md)
+- [Crosswalk with existing metadata schema](specifications/dataset_metadata_crosswalk.md)
 
 Templates:
 - [Downloadable template for dataset metadata reporting format](dataset_metadata_template.docx)

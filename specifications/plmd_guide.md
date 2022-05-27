@@ -1,4 +1,4 @@
-# Package-level metadata guide
+# Dataset metadata guide
 
 This page provides guidelines and expectations for each metadata field for uploads to the ESS-DIVE repository. The JSON-LD Field Names refer to vocabulary used for submission through our [programmatic API](https://docs.ess-dive.lbl.gov/contributing-data/data-submission-guidelines/package-service-tutorial).
 

@@ -112,7 +112,7 @@ This page provides guidelines and expectations for each metadata field for uploa
 | **End Date** | **`optional`** | 
 | :--- | :--- |
 | JSON-LD Field | `temporalCoverage` |
-| Description | Last date in data package. Leave blank if your dataset is open ended. | 
+| Description | Last date in dataset. Leave blank if your dataset is open ended. | 
 |Example | 2019-07-13|
 | Format | YYYY-MM-DD |
 
